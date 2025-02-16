@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Hero />
       <Routes>
-        <Route path="/home" element={<Home />} /> {/* ✅ Corrigido: Tudo minúsculo */}
+        <Route path="/home" element={<Home />} /> 
         <Route path="/menu" element={<Menu />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/book" element={<Book />} />
