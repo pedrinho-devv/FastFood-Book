@@ -1,9 +1,8 @@
-import React from 'react'
 
-function AboutUs() {
+function Menu() {
   return (
-    <div>AboutUs</div>
+    <div>Menu</div>
   )
 }
 
-export default AboutUs
+export default Menu
