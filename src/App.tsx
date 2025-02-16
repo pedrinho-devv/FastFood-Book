@@ -3,12 +3,12 @@ import Home from "./Pages/Home";
 import Menu from "./Pages/Menu";
 import AboutUs from "./Pages/AboutUs";
 import Book from "./Pages/Book";
-import Main from "./Components/Main"; // ✅ Corrigido o erro de digitação
+import Hero from "./Components/Hero";
 
 const App = () => {
   return (
     <>
-      <Main />
+      <Hero />
       <Routes>
         <Route path="/home" element={<Home />} /> {/* ✅ Corrigido: Tudo minúsculo */}
         <Route path="/menu" element={<Menu />} />
