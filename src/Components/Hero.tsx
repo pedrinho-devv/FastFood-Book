@@ -5,17 +5,18 @@ import img4 from "../assets/R_4.jpg";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-3 w-full border border-gray-400 overflow-hidden">
-      {/* IMAGEM GRANDE - LADO ESQUERDO */}
+    <div className="grid grid-cols-3 min-w-min overflow-hidden">
+    <div className="grid grid-cols-2 gap-5 ">
       <div className="flex">
         <img className="w-[932px] h-[973px] object-cover" src={img1} alt="Imagem principal" />
       </div>
 
-      {/* TRÊS IMAGENS MENORES - LADO DIREITO */}
-      <div className="flex flex-col justify-center items-center gap-4">
+     
+      <div className=" gap-4">
         <img className="w-[388px] h-[313px] object-cover rounded-lg shadow-md" src={img2} alt="Imagem 2" />
         <img className="w-[388px] h-[313px] object-cover rounded-lg shadow-md" src={img3} alt="Imagem 3" />
         <img className="w-[388px] h-[313px] object-cover rounded-lg shadow-md" src={img4} alt="Imagem 4" />
+      </div>
       </div>
     </div>
   );
