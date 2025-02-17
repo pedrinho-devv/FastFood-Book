@@ -5,11 +5,11 @@ import img4 from "../assets/R_4.jpg";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 min-w-min overflow-hidden">
-      <div className="flex justify-center">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 w-full overflow-hidden">
+      <div className="flex justify-center col-span-1">
         <img className="w-full h-auto object-cover" src={img1} alt="Imagem principal" />
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 col-span-1">
         <img className="w-full h-auto object-cover rounded-lg shadow-md" src={img2} alt="Imagem 2" />
         <img className="w-full h-auto object-cover rounded-lg shadow-md" src={img3} alt="Imagem 3" />
         <img className="w-full h-auto object-cover rounded-lg shadow-md" src={img4} alt="Imagem 4" />
