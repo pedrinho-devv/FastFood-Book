@@ -7,7 +7,7 @@ import Hero from "./Components/Hero";
 
 const App = () => {
   return (
-    <>
+    <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
       <Hero />
       <Routes>
         <Route path="/home" element={<Home />} /> 
@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/book" element={<Book />} />
       </Routes>
-    </>
+    </div>
   );
 };
 
